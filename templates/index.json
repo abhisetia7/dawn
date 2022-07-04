@@ -6,15 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Your Expert Shopify Partner.",
             "heading_size": "medium"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "LET'S CHAT",
+            "button_link_1": "shopify:\/\/pages\/contact-us",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/mask-bg.png",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
