@@ -8,6 +8,14 @@
     <link rel="canonical" href="{{ canonical_url }}" hreflang="en-ca">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
+    
+    <!-- nofollow,noindex robots including Product Tag logic for "noindex" -->
+{% assign pt = product.tags | join:',' %}
+{% if pt contains 'noindex' or template contains "cart" or template contains 'account' or template contains 'customer' %}
+<meta name="robots" content="noindex,nofollow" />
+{% else %}
+<meta name="robots" content="index,follow" />
+{% endif %}
     {% if settings.favicon != nil %}
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
