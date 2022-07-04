@@ -43,21 +43,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Fast and Fail-Proof Execution.",
+            "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>A digital agency with the expertise to help your Shopify store thrive from anywhere in the world.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/about-us",
             "button_style_secondary": false
           }
         }
