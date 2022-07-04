@@ -10,6 +10,7 @@
     "colors_background_2": "#f3f3f3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "social_instagram_link": "",
     "predictive_search_enabled": false,
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
@@ -47,33 +48,42 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "a90f946e-1804-4738-bb00-311dfb192e12": {
+            "type": "image",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "image": "shopify:\/\/shop_images\/stem-logo-06_1_38743840-9f99-4c0d-915a-f520a9481932.png",
+              "image_width": 200,
+              "alignment": ""
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "",
+              "subtext": "<p>Toronto | Montreal | Vancouver<br\/><a href=\"tel:18666447836\" target=\"_blank\" title=\"tel:18666447836\">1-866-644-STEM<\/a><br\/><a href=\"mailto:info@stemcommerce.com\" title=\"mailto:info@stemcommerce.com\">info@stemcommerce.com<\/a><\/p>"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "main-menu-working"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "a90f946e-1804-4738-bb00-311dfb192e12",
+          "footer-1",
+          "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "accent-1",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
