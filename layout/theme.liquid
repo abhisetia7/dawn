@@ -44,10 +44,10 @@
     <!-- Javascript --> 
     <!-- jQuery and AJAX -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<!-- Cookies -->
+    <!-- Cookies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
-integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            integrity="sha512-Meww2sXqNHxI1+5Dyh/9KAtvI9RZSA4c1K2k5iL02oiPO/RH3Q30L3M1albtqMg50u4gRTYdV4EXOQqXEI336A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -188,5 +188,34 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {%- if settings.predictive_search_enabled -%}
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <!-- Browser Check -->
+    <script type="text/javascript">
+      if (navigator.userAgent.search("MSIE") >= 0) {
+        $( "body" ).addClass( "InternetExplorer_Browser" );
+      }
+      var trident = !!navigator.userAgent.match(/Trident\/7.0/);
+      var net = !!navigator.userAgent.match(/.NET4.0E/);
+      var IE11 = trident && net;
+      var IEold = ( navigator.userAgent.match(/MSIE/i) ? true : false );
+      if(IE11 || IEold){
+        jQuery('body').addClass('internet_explorer');
+      }
+      //Check if browser is Chrome or not
+      else if (navigator.userAgent.search("Chrome") >= 0) {
+        $( "body" ).addClass( "Chrome_Browser" );
+      }
+      //Check if browser is Firefox or not
+      else if (navigator.userAgent.search("Firefox") >= 0) {
+        $( "body" ).addClass( "FireFox_Browser" );
+      }
+      //Check if browser is Safari or not
+      else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+        $( "body" ).addClass( "Safari_Browser" );
+      }
+      //Check if browser is Opera or not
+      else if (navigator.userAgent.search("Opera") >= 0) {
+        $( "body" ).addClass( "Opera_Browser" );
+      }
+    </script>
   </body>
 </html>
