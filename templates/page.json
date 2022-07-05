@@ -1,10 +1,65 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "165702222780ead501": {
+      "type": "rich-text",
+      "blocks": {
+        "165702222763b53a49-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Toronto | Montreal | Vancouver<br\/><a href=\"tel:18666447836\" target=\"_blank\" title=\"tel:18666447836\"><strong>1-866-644-STEM<\/strong><\/a><br\/><a href=\"mailto:info@stemcommerce.com\" target=\"_blank\" title=\"mailto:info@stemcommerce.com\">info@stemcommerce.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165702222763b53a49-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1657022415e762595c": {
+      "type": "rich-text",
+      "blocks": {
+        "165702241552270bc6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is your goal? Let us be your guide.",
+            "heading_size": "h1"
+          }
+        },
+        "165702241552270bc6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supercharge your online growth. We work with clients all over the world. Get in touch with us via the form below to discuss a potential project or partnership.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165702241552270bc6-0",
+        "165702241552270bc6-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "16570221661ed20429": {
+      "type": "contact-form",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165702222780ead501",
+    "1657022415e762595c",
+    "16570221661ed20429"
   ]
 }
