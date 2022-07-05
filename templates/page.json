@@ -19,7 +19,7 @@
         "165702222763b53a49-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Toronto | Montreal | Vancouver<br\/><a href=\"tel:18666447836\" target=\"_blank\" title=\"tel:18666447836\"><strong>1-866-644-STEM<\/strong><\/a><br\/><a href=\"mailto:info@stemcommerce.com\" target=\"_blank\" title=\"mailto:info@stemcommerce.com\">info@stemcommerce.com<\/a><\/p>"
+            "text": "<p>Toronto | Montreal | Vancouver<\/p><p><a href=\"tel:18666447836\" target=\"_blank\" title=\"tel:18666447836\"><strong>1-866-644-STEM<\/strong><\/a><\/p><p><a href=\"mailto:info@stemcommerce.com\" target=\"_blank\" title=\"mailto:info@stemcommerce.com\">info@stemcommerce.com<\/a><\/p>"
           }
         }
       },
