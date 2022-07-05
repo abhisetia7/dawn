@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-contact-page",
+      "disabled": true,
       "settings": {
       }
     },
