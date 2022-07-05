@@ -2,12 +2,20 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
     "165702222780ead501": {
       "type": "rich-text",
       "blocks": {
+        "50b63919-7985-4d26-96ad-b9b05cbc1239": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact",
+            "heading_size": "h0"
+          }
+        },
         "165702222763b53a49-1": {
           "type": "text",
           "settings": {
@@ -16,6 +24,7 @@
         }
       },
       "block_order": [
+        "50b63919-7985-4d26-96ad-b9b05cbc1239",
         "165702222763b53a49-1"
       ],
       "settings": {
