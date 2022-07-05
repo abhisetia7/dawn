@@ -85,12 +85,40 @@
         "color_scheme": "inverse",
         "layout": "text_first"
       }
+    },
+    "1657021645931a8a88": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657021645322622bb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "High quality execution and an agile team philosophy, no matter the work, sets us apart."
+          }
+        },
+        "1657021645322622bb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand that as a business owner, time is the  most valuable currency you own. Our global team has  the privilege of working in <br\/>different time zones, which  allows us to execute strategies in record time – what  Stem can do in twenty-four hours might take others an entire week. Those saved minutes can mean the  difference in millions of dollars for your business.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657021645322622bb-0",
+        "1657021645322622bb-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/StemCommerce_Stock_Image_07_39f46c78-bd5f-4b93-8079-00d92b1d1bca.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "main",
     "16570206611db2ce54",
     "16570209387ba5a06b",
-    "16570212879761a06a"
+    "16570212879761a06a",
+    "1657021645931a8a88"
   ]
 }
