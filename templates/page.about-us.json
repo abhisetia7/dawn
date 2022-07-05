@@ -65,29 +65,22 @@
         "1657021287ddd1cb8e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "When you work with Stem, everything will always be alright."
           }
         },
         "1657021287ddd1cb8e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1657021287ddd1cb8e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Under the direction and leadership of founder Stefano  Mastrocola, we’ve achieved colossal milestones over the  last decade for leading online stores like Endy Mattress,  Amazon’s Ring and more. Constantly adapting to the  growth and evolution of Shopify itself, we continue to  channel our success formula onto every client that steps  through our door.<\/p>"
           }
         }
       },
       "block_order": [
         "1657021287ddd1cb8e-0",
-        "1657021287ddd1cb8e-1",
-        "1657021287ddd1cb8e-2"
+        "1657021287ddd1cb8e-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/stem-img-02_7e4c3103-bdd7-4690-a14c-b0126cff4292.png",
         "height": "adapt",
         "color_scheme": "inverse",
         "layout": "text_first"
