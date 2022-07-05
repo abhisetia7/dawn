@@ -173,7 +173,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "secondary",
         "button_label": "LET'S GROW",
         "button_link": "shopify:\/\/pages\/contact-us",
         "swipe_on_mobile": false
