@@ -22,7 +22,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Book a consultation with our team today!",
+              "text": "BOOK A CONSULTATION WITH OUR TEAM TODAY!",
               "color_scheme": "inverse",
               "link": "https:\/\/calendly.com\/stem-commerce"
             }
