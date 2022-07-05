@@ -54,12 +54,26 @@
       "settings": {
         "heading": ""
       }
+    },
+    "16570225252ec6fb99": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/StemCommerce_Stock_Image_09.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "main",
     "165702222780ead501",
     "1657022415e762595c",
-    "16570221661ed20429"
+    "16570221661ed20429",
+    "16570225252ec6fb99"
   ]
 }
