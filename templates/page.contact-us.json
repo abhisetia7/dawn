@@ -68,6 +68,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/StemCommerce_Stock_Image_01_1.webp",
+        "image_2": "shopify:\/\/shop_images\/StemCommerce_Stock_Image_09_051b759d-915c-407f-a2a5-a73304b8d1ae.webp",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": false,
